@@ -26,6 +26,18 @@ export default function LeftRail() {
       collapsible="none"
       className="w-14 sm:w-16 shrink-0 border-r border-border bg-white dark:bg-[#191919] text-foreground flex flex-col items-center justify-between py-3 select-none"
     >
+      {/* Tepa piktogrammalar */}
+      <SidebarHeader className="p-0 flex flex-col items-center w-full">
+        {/* Yuqori logo / Activity waveform */}
+        <Link
+          href="/"
+          className="flex size-9 items-center justify-center rounded-xl text-sky-500 hover:opacity-80 transition-opacity mb-2"
+          title="Bosh sahifa"
+        >
+          <Activity className="size-6 stroke-[2.5]" />
+        </Link>
+      </SidebarHeader>
+
       <SidebarContent className="p-0 flex flex-col items-center w-full gap-2 overflow-y-auto">
         <SidebarMenu className="flex flex-col items-center w-full gap-2">
           {/* 1. Home (Bosh sahifa) */}

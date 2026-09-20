@@ -148,7 +148,7 @@ export default function Header() {
                         />
                     </Avatar>
                     <Link href="/">
-                        <Button>
+                        <Button className=" bg-[#0f172a]">
                             <LogIn />
                             Login
                         </Button>

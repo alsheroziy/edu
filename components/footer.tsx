@@ -40,8 +40,8 @@ export default function Footer() {
               alt="Talabalar va dars jarayoni illustratsiyasi"
               width={620}
               height={320}
+              priority
               className="w-full max-w-md sm:max-w-lg md:max-w-xl h-auto object-contain dark:invert dark:opacity-90 pointer-events-none"
-              priority={false}
             />
           </div>
         </div>

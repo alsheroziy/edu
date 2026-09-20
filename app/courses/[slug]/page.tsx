@@ -69,10 +69,10 @@ export default function CourseDetailPage({ params }: PageProps) {
           defaultOpen={true}
           className="flex size-full min-h-0 overflow-hidden"
         >
-          {/* 1. Eng chapdagi tor Icon Rail (shadcn Sidebar + Home, Maqolalar, Yangiliklar) */}
+          {/* 1. Chapdagi tor piktogrammalar paneli (LeftRail) */}
           <LeftRail />
 
-          {/* 2. O'rtadagi Modullar va Darslar Sidebari (shadcn Sidebar + Notion Style) */}
+          {/* 2. Modullar va Darslar Sidebari (shadcn Sidebar + Notion Style) */}
           <CourseSidebar
             modules={course.modules}
             totalScore={course.totalScore}
